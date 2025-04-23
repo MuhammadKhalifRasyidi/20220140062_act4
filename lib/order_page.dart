@@ -74,7 +74,15 @@ class _OrderPageState extends State<OrderPage> {
                 return null;
               },
             ),
-           
+            ElevatedButton(
+              onPressed: () {
+                if (_formKey.currentState!.validate()) {
+                  calculateTotalPrice();
+                  
+                }
+              },
+              child: const Text('Order Now'),
+            ),
           ],
         ),
       ),
