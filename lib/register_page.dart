@@ -47,6 +47,9 @@ class _RegisterPageState extends State<RegisterPage> {
                   return null;
                 },
               ),
+              ElevatedButton(
+                onPressed: () {}, 
+                child: Text('Register')),
              
           ],
         ),
