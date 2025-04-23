@@ -15,5 +15,11 @@ class DetailOrderPage extends StatelessWidget{
     required this.totalHarga,
   });
 
- 
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Detail Order Page')),
+      
+    );
+  }
 }
